@@ -1,0 +1,42 @@
+/* Remove margin and padding from the body to make the map full screen */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the height and width of the map to 100% to cover the entire screen */
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the legend */
+.legend {
+    background-color: white;
+    padding: 10px;
+    line-height: 18px;
+    color: #555;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    border-radius: 3px;
+    background-color: #ff7800;
+    /* Default color for legend boxes */
+}
+
+.legend .leaflet-control {
+    margin-bottom: 30px;
+}
